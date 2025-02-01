@@ -12,7 +12,7 @@ on:
     branches:
       - main
       - 'test*'
-    paths:
+    paths-ignore:
       - 'src/**'
 jobs:
   deploy:
