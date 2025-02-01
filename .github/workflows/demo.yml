@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - testactivity
 jobs:
   test:
     runs-on: ubuntu-latest
