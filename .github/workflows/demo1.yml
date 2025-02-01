@@ -14,8 +14,6 @@ on:
       - 'test*'
     paths-ignore:
       - 'src/**'
-    paths:
-      - '.github'
 jobs:
   deploy:
     runs-on: ubuntu-latest
